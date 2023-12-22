@@ -7,4 +7,4 @@ TryExec=VoxelEngine
 Exec=VoxelEngine
 Icon=VoxelEngine
 MimeType=image/x-foo;
-Categories=Games;
+Categories=Game;
