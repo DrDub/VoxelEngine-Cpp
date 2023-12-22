@@ -26,6 +26,8 @@ AppDir:
     - libglew2.1
     - libpng16-16
     - libopenal1
+    - libopengl0
+    - libasound2
     exclude:
       - hicolor-icon-theme
       - sound-theme-freedesktop
