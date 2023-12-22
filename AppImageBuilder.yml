@@ -28,6 +28,7 @@ AppDir:
     - libopenal1
     - libopengl0
     - libasound2
+    - libglx0
     exclude:
       - hicolor-icon-theme
       - sound-theme-freedesktop
