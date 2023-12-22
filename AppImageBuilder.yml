@@ -12,10 +12,11 @@ AppDir:
     arch: amd64
     sources:
     - sourceline: deb http://archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse
+      key_url: 'http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x3b4fe6acc0b21f32'
+      key_url: 'http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x871920D1991BC93C'
     - sourceline: deb http://archive.ubuntu.com/ubuntu/ focal-updates main restricted universe multiverse
     - sourceline: deb http://archive.ubuntu.com/ubuntu/ focal-backports main restricted universe multiverse
     - sourceline: deb http://archive.ubuntu.com/ubuntu/ focal-security main restricted universe multiverse
-    - sourceline: deb http://archive.neon.kde.org/user/ focal main
     include:
     - libbz2-1.0
     - libexpat1
